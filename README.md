@@ -1,21 +1,23 @@
 # MiniAgenda
 
-**TODO: Add description**
+Test Elixir
 
-## Installation
+MiniAgenda.start_link(%{})
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `mini_agenda` to your list of dependencies in `mix.exs`:
+MiniAgenda.add_contact("Charlie", "345-678", "charlie@example.com")
 
-```elixir
-def deps do
-  [
-    {:mini_agenda, "~> 0.1.0"}
-  ]
-end
-```
+MiniAgenda.add_contact("Alice", "123-456", "alice@example.com")
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/mini_agenda>.
+MiniAgenda.add_contact("Alice", "123-456", "alice@example.com")
 
+MiniAgenda.add_contact("Bob", "234-567", "bob@example.com")
+
+MiniAgenda.list_contacts()
+
+MiniAgenda.get_contact("bob")
+
+MiniAgenda.remove_contact("Bob")
+
+MiniAgenda.get_contact("bob")
+
+MiniAgenda.list_contacts()
