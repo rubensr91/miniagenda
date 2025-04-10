@@ -1,2 +1,2 @@
 # miniagenda
-Mini agenda suing Elixir
+Mini agenda using Elixir
